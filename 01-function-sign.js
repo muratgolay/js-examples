@@ -1,6 +1,13 @@
 /* function sign */
 function greeting(param)/* any type function argument */ {
-    /* number, string, boolean, array, object, undifined,function */
+    /* types:number,symbol, string, boolean, array, object, undifined,function */
+
+    /* fonksiyon argüöanının kontrolünün sağlanması gerçekleştirecek koşulların yazılması 
+    mantıksal kodun veya ifadelerin hatalarını önleyecektir
+
+    if (typeof param === "undifined") {
+        console.log("param is undifined");
+     */
   console.log("greeting function");
   console.log("Hello " + param);
 }
